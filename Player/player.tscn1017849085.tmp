@@ -166,3 +166,4 @@ current_state = NodePath("idle")
 [node name="idle" parent="StateMachine" instance=ExtResource("5_fhl08")]
 
 [node name="walk" parent="StateMachine" instance=ExtResource("6_vtle1")]
+move_speed = null
