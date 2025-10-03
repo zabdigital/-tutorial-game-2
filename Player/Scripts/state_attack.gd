@@ -16,6 +16,10 @@ var attacking : bool = false
 
 
 
+func init() -> void:
+	pass
+
+
 ## what happens when the player enters this State
 func Enter() -> void:
 	player.UpdateAnimation("attack")
